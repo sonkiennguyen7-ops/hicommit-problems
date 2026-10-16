@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-	float distance, order_value;
-	scanf("%f,%f",&distance, &order_value);
+	int distance, order_value;
+	scanf("%d,%d",&distance, &order_value);
 
 	if (distance <= 0 || order_value < 0)
 	{
