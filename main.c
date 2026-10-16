@@ -20,6 +20,6 @@ int main()
 	{
 	 max=c;
 	}
-	printf ("max:%d",max);
-	return max;
+	printf ("%d",max);
+	return 0;
 }
