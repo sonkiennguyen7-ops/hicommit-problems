@@ -10,19 +10,19 @@ int main()
 	}
 	else if (order_value >= 500000 && distance <= 15)
 	{
-		printf("0");
+		printf("%d",0);
 	}
 	else if (distance >= 1 && distance <= 5)
 	{
-		printf("15000");
+		printf("%d",15000);
 	}
 	else if (distance >= 6 && distance <= 15)
 	{
-		printf("25000");
+		printf("%d",25000);
 	}
 	else if(distance >= 15)
     {
-		printf("40000");
+		printf("%d",40000);
 	}
 
 
