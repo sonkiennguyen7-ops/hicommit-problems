@@ -1,29 +1,29 @@
 #include <stdio.h>
 int main()
- {
-    float distance, order_value;
-    scanf("%f,%f",&distance, &order_value);
+{
+	float distance, order_value;
+	scanf("%f,%f",&distance, &order_value);
 
-    if (distance <= 0 || order_value < 0)
-	 {
-        printf("INVALID");
-    } 
-    else if (order_value >= 500000 && distance <= 15) 
+	if (distance <= 0 || order_value < 0)
 	{
-        printf("0");
-    }
-    else if (distance >= 1 && distance <= 5)
-		 {
-            printf("15000");
-        } 
-        else if (distance >= 6 && distance <= 15)
-		 {
-             printf("25000");
-        } 
-        else {
-             printf("40000");
-        }
-    }
+		printf("INVALID");
+	}
+	else if (order_value >= 500000 && distance <= 15)
+	{
+		printf("0");
+	}
+	else if (distance >= 1 && distance <= 5)
+	{
+		printf("15000");
+	}
+	else if (distance >= 6 && distance <= 15)
+	{
+		printf("25000");
+	}
+	else {
+		printf("40000");
+	}
 
-    return 0;
+
+return 0;
 }
