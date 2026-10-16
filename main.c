@@ -7,23 +7,23 @@ int main()
 
     if (distance <= 0 || order_value < 0)
 	 {
-        printf("Du_lieu_khong_hop_le");
+        printf("INVALID");
     } 
     else if (order_value >= 500000 && distance <= 15) 
 	{
-        printf("mien_phi");
+        printf("0");
     }
     else {
         if (distance >= 1 && distance <= 5)
 		 {
-            printf("phi_la_15000");
+            printf("15000");
         } 
         else if (distance >= 6 && distance <= 15)
 		 {
-             printf("phi_la_25000");
+             printf("25000");
         } 
         else {
-             printf("phi_la_40000");
+             printf("40000");
         }
     }
 
