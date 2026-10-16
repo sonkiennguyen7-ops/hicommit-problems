@@ -2,7 +2,6 @@
 int main()
  {
     float distance, order_value;
-    printf("nhap_du_lieu");
     scanf("%f,%f",&distance, &order_value);
 
     if (distance <= 0 || order_value < 0)
