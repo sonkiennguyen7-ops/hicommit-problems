@@ -20,7 +20,7 @@ int main()
   {
     printf("OVERWEIGHT");
   }
-  else if (30.000000 <= BMI)
+  else (30.000000 <= BMI);
   {
     printf("OBESE");
   }
