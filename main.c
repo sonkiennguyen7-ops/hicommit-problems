@@ -31,7 +31,7 @@ int main()
   {
     printf("D");
   }
-   else (dtb<4.0)
+   else (dtb<4.0);
    {
      printf("F");
    }
