@@ -3,31 +3,31 @@ int main()
 {
   float dtb;
   scanf("%1f",&dtb);
-  if(9.0<=dtb && dtb<=10.0)
+  if(9.00<=dtb && dtb<=10.0)
   {
     printf("A");
   }
- else if (8.0<=dtb && dtb<=8.99)
+ else if (8.00<=dtb && dtb<=8.99)
   {
     printf("B+");
   }
- else if (7.0<=dtb && dtb<=7.99)
+ else if (7.00<=dtb && dtb<=7.99)
   {
     printf("B");
   }
-  else if (6.5<=dtb && dtb<=6.99)
+  else if (6.59<=dtb && dtb<=6.99)
   {
     printf("C+");
   }
-  else if (5.5<=dtb && dtb<=5.99)
+  else if (5.59<=dtb && dtb<=5.99)
   {
     printf("C");
   }
-   else if (5.0<=dtb && dtb<=5.49)
+   else if (5.00<=dtb && dtb<=5.49)
    {
          printf("D+");
    }
-  else if (4.0<=dtb && dtb<=4.9)
+  else if (4.00<=dtb && dtb<=4.9)
   {
     printf("D");
   }
