@@ -8,19 +8,19 @@ int main()
   scanf("%f",&w);
   scanf("%f",&h);
   BMI = w/((h/100)*(h/100));
-  if(BMI < 18.500000f)
+  if(BMI < 18.500000)
   {
     printf("UNDERWEIGHT");
   }
-  else if((18.500000f <= BMI) && (BMI < 24.9999f))
+  else if(BMI < 24.9999)
   {
     printf("NORMAL");
   }
-  else if((24.9999f <= BMI) && (BMI < 29.9999f))
+  else if (BMI < 29.9999)
   {
     printf("OVERWEIGHT");
   }
-  else if (29.9999f <= BMI);
+  else
   {
     printf("OBESE");
   }
