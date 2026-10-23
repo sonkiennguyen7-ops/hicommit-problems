@@ -24,7 +24,7 @@ int main()
     printf("%d",tong);
   }
     
-  else if ((201<=k) && (k<300));
+  else if ((201<=k) && (k<300))
   {
     tong=(50*1678+50*1734+100*2014+(k-100)*2636);
     printf("%d",tong);
