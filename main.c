@@ -6,17 +6,15 @@ int main()
   switch(n)
   {
     case 1:
-      printf("xep_loai_xuat_sac");
+      printf("XEP_LOAI_XUAT_SAC");
      case 2:
-      printf("xep_loai_gioi");
+      printf("XEP_LOAI_GIOI");
      case 3:
-      printf("xep_loai_kha");
+      printf("XEP_LOAI_KHA");
      case 4:
-      printf("xep_loai_trung_binh");
+      printf("XEP_LOAI_TRUNG_BINH");
     default:
-      printf("khong_hop_le");
-      
-      
+      printf("KHONG_HOP_LE");     
   }
   
   return 0;
