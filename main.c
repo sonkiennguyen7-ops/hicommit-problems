@@ -3,7 +3,7 @@ int main()
 {
   float dtb;
   scanf("%1f",&dtb);
-  if(9.00<=dtb && dtb<=10.0)
+  if(9.00<=dtb && dtb<=10.00)
   {
     printf("A");
   }
@@ -19,7 +19,7 @@ int main()
   {
     printf("C+");
   }
-  else if (5.50<=dtb && dtb<=5.99)
+  else if (5.50<=dtb && dtb<=6.49)
   {
     printf("C");
   }
