@@ -15,11 +15,11 @@ int main()
   {
     printf("B");
   }
-  else if (6.59<=dtb && dtb<=6.99)
+  else if (6.50<=dtb && dtb<=6.99)
   {
     printf("C+");
   }
-  else if (5.59<=dtb && dtb<=5.99)
+  else if (5.50<=dtb && dtb<=5.99)
   {
     printf("C");
   }
@@ -27,7 +27,7 @@ int main()
    {
          printf("D+");
    }
-  else if (4.00<=dtb && dtb<=4.9)
+  else if (4.00<=dtb && dtb<=4.99)
   {
     printf("D");
   }
