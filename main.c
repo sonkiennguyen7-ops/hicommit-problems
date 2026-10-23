@@ -7,23 +7,23 @@ int main()
   {
     printf("A");
   }
- else if (8.0<=dtb && dtb<=8.9)
+ else if (8.0<=dtb && dtb<=8.99)
   {
     printf("B+");
   }
- else if (7.0<=dtb && dtb<=7.9)
+ else if (7.0<=dtb && dtb<=7.99)
   {
     printf("B");
   }
-  else if (6.5<=dtb && dtb<=6.9)
+  else if (6.5<=dtb && dtb<=6.99)
   {
     printf("C+");
   }
-  else if (5.5<=dtb && dtb<=5.9)
+  else if (5.5<=dtb && dtb<=5.99)
   {
     printf("C");
   }
-   else if (5.0<=dtb && dtb<=5.4)
+   else if (5.0<=dtb && dtb<=5.49)
    {
          printf("D+");
    }
