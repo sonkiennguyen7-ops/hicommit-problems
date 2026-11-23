@@ -12,7 +12,7 @@ int main()
   {
     printf("FAIL_ATTENDANCE");
   }
-  else if(min>4.000000)
+  else if(min<4.000000)
   {
     printf("FAIL_SUBJECT");
   }
