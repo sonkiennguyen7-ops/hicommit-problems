@@ -36,9 +36,9 @@ int main()
      } 
      else
      {
-         printf("INVAILD");
+         printf("INVALID");
      }
-     printf("VAILD");
+     printf("VALID");
   }
   
     return 0;
