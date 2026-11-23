@@ -20,7 +20,7 @@ int main()
   {
     printf("EXCELLENT");
   }
-  else if(gpa>=6,500000 && min>=5.000000)
+  else if(gpa>=6.500000 && min>=5.000000)
   {
     printf("GOOD");
   }
