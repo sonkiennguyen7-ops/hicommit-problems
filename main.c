@@ -18,7 +18,7 @@ int main()
   scanf("%d",&y);
    if(y<=0)
   {
-    printf("INVALID")
+    printf("INVALID");
   }
   else if( 1<=m && m<=12)
   {
