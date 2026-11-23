@@ -24,7 +24,7 @@ int main(){
     printf("VALID");
     check = 1;
   }
-  else if (((check == 0) && (day <= 28 && day >= 1)) &&  (month == 2))
+  else if (((check == 0) && (d <= 28 && d >= 1)) &&  (m == 2))
   {
     printf("VALID");
   }
