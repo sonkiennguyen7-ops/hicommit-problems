@@ -16,7 +16,7 @@ int main()
   {
     printf("FAIL_SUBJECT");
   }
-  else if(gpa>=8.000000 && min>7=.000000)
+  else if(gpa>=8.000000 && min>=7.000000)
   {
     printf("EXCELLENT");
   }
@@ -30,7 +30,7 @@ int main()
   }
   else
   {
-    printf(FAIL);
+    printf("FAIL");
   }
   return 0;
 }
